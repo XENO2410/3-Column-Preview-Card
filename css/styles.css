@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 66vw;
   height: 35vw;
   position: absolute;
@@ -44,6 +45,10 @@ body {
   background-color: hsl(179, 100%, 13%);
   border-top-right-radius: 1vw;
   border-bottom-right-radius: 1vw;
+}
+
+.img{
+    width: 5vw;
 }
 
 .img1 {
@@ -122,26 +127,26 @@ body {
 }
 
 .btn1 {
-  background: #f2f2f2;
-  border-radius: 28px;
-  font-family: "Lexend Deca", sans-serif;
-  color: #e38826;
-  font-size: 15px;
-  padding: 15px 35px 15px 35px;
-  text-decoration: none;
-  border: 0px solid #f2f2f2;
-  position: absolute;
-  left: 3vw;
-  top: 28vw;
+    background: #f2f2f2;
+    border-radius: 2.8vw;
+    font-family: "Lexend Deca", sans-serif;
+    color: #e38826;
+    font-size: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    text-decoration: none;
+    border: 0px solid #f2f2f2;
+    position: absolute;
+    left: 3vw;
+    top: 28vw;
 }
 
 .btn2 {
   background: #f2f2f2;
-  border-radius: 28px;
+  border-radius: 2.8vw;
   font-family: "Lexend Deca", sans-serif;
   color: #006970;
-  font-size: 15px;
-  padding: 15px 35px 15px 35px;
+  font-size: 1vw;
+  padding: 1vw 2vw 1vw 2vw;
   text-decoration: none;
   border: 0px solid #f2f2f2;
   position: absolute;
@@ -151,11 +156,11 @@ body {
 
 .btn3 {
   background: #f2f2f2;
-  border-radius: 28px;
+  border-radius: 2.8vw;
   font-family: "Lexend Deca", sans-serif;
   color: #004241;
-  font-size: 15px;
-  padding: 15px 35px 15px 35px;
+  font-size: 1vw;
+  padding: 1vw 2vw 1vw 2vw;
   text-decoration: none;
   border: 0px solid #f2f2f2;
   position: absolute;
@@ -180,7 +185,7 @@ body {
 
 .Credits {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 11px;
+  font-size: 1.1vw;
   text-align: center;
   color: hsl(228, 45%, 44%);
   position: absolute;
