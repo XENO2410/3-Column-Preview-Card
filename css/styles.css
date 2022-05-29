@@ -169,18 +169,18 @@ body {
 }
 
 .btn1:hover {
-  background-color: hsl(0, 0%, 95%);
-  color: grey;
+  opacity: 0.5;
+  color: black;
 }
 
 .btn2:hover {
-  background-color: hsl(0, 0%, 95%);
-  color: gray;
+  opacity: 0.5;
+  color: black;
 }
 
 .btn3:hover {
-  background-color: hsl(0, 0%, 95%);
-  color: grey;
+  opacity: 0.5;
+  color: black;
 }
 
 .Credits {
